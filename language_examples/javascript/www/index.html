@@ -1,0 +1,29 @@
+<html>
+
+	<head>
+		<title>Example Page</title>
+	</head>
+
+	<body>
+		<script>
+			function changeHeading() {
+				document.getElementById("heading").innerHTML = "You clicked the button";
+			}
+
+			function addText(text) {
+				document.getElementById("demo").innerHTML = text;
+			}
+		</script>
+
+		<h1 id="heading" onclick="this.innerHTML = 'Ooops!'">Hello!</h1>
+		<p id="demo"></p>
+
+		<p>
+			<button onclick="changeHeading()">Change Heading</button>
+		</p>
+		<p>
+			<button onclick="addText('You added this text')">Add Text</button>
+		</p>
+	</body>
+
+</html>
