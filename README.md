@@ -229,6 +229,8 @@ To attach the debugger, add a source map option:
 }
 ```
 
+With the **helloworld.ts** file open in the editor, you can now use [F5] to run and debug.  The first time you run, you'll be prompted for a debugger.  Select **Node**.
+
 ## Ruby
 
 Ruby LSP configuration is being a pain, so we'll just use Code Runner for this.
